@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "ENTRA_TENANT_ID": "<your-tenant-id>",
+    "BROKER_AUDIENCE": "api://powerbi-bq-broker",
+    "GCP_PROJECT_ID": "<your-gcp-project-id>",
+    "GCP_PROJECT_NUMBER": "<your-gcp-project-number>",
+    "WIF_POOL_ID": "powerbi-broker-pool",
+    "WIF_PROVIDER_ID": "entra",
+    "GCP_SERVICE_ACCOUNT": "bq-powerbi-broker@<your-gcp-project-id>.iam.gserviceaccount.com",
+    "BQ_BILLING_PROJECT": "<your-gcp-project-id>"
+  }
+}

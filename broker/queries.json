@@ -1,0 +1,4 @@
+{
+  "sample_usa_names": "SELECT name, SUM(number) AS total FROM `bigquery-public-data.usa_names.usa_1910_2013` WHERE state = 'FL' GROUP BY name ORDER BY total DESC LIMIT 10",
+  "sample_row_count": "SELECT COUNT(*) AS n FROM `bigquery-public-data.usa_names.usa_1910_2013`"
+}
